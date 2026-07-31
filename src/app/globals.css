@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(77,216,232,0.06), transparent 40%),
+    radial-gradient(circle at 85% 90%, rgba(45,212,168,0.05), transparent 40%),
+    #060b14;
+  color: #d9e6ef;
+}
+
+.input {
+  @apply border border-line bg-void/60 p-3 outline-none focus:border-cyan text-[15px];
+}
